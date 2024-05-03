@@ -16,7 +16,7 @@ This Snakefile exports regions with high mismatch rates using pysamstats, remaps
 
 ## Project Files Description
 
-The 'input' files are the cram files for each sample the 1OOO Genome project sequenced by our effort, and the output" files are bed files for each sample, containing the candidate inversion regions.
+The `input` files are the cram files for each sample the 1OOO Genome project sequenced by our effort, and the `output` files are bed files for each sample, containing the candidate inversion regions.
 
 #### `Snakefile_cram_remap`
 This Snakefile is used for remapping sample CRAM files to detect small inversions. It includes steps for preprocessing, remapping, post-processing, and calling inversions.
